@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Sahel;
+    src: url("../fonts/Sahel.eot");
+    src: url("../fonts/Sahel.ttf");
+    src: url("../fonts/Sahel.woff");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+    font-family: Sahel, Tahoma;
+}
+
+header {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+span i {
+    color: #9AA0A8;
+    font-size: 25px;
+}
+
+.title {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.profiles {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.members {
+    display: flex;
+    flex-flow: row;
+}
+
+.members a,
+i {
+    font-size: 35px;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(73, 74, 75);
+    margin: 0px 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+    color: rgb(73, 74, 75);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0px;
+}
+
+.footer-items {
+    display: flex;
+}
+
+.footer-items li {
+    margin: 0px 20px;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+
+/* index2 */
+
+.members-2 {
+    display: flex;
+    flex-flow: row;
+    border: 1px solid #cdcdce;
+    background-color: #cdcdce;
+    border-radius: 5px;
+    width: 500px;
+    margin: 20px 0px;
+    padding: 10px 10px;
+}
+
+.members-2 a,
+i {
+    font-size: 35px;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(73, 74, 75);
+}
+
+#arrow {
+    color: #2196F3;
+    margin: 40px 60px 0px 0px;
+    font-size: 30px;
+}
